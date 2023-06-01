@@ -1,0 +1,15 @@
+footer {
+    text-align: center;
+    font-size: 18px;
+    /* color:#fc5050; */
+    padding: 0.4em;
+    /* background: #fc5050; */
+    background: #272727;
+    
+}
+footer a{
+    color: #747474;
+}
+footer a:hover{
+    color: bisque;
+}
