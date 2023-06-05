@@ -41,6 +41,8 @@
   color:red;
   text-align: center;
   font-size:40px;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .box-box{
   border:5px solid#000000;
@@ -49,4 +51,5 @@
   width:900px;
   margin-left:400px;
   box-shadow: 0 0 100px #000000;
+
 }

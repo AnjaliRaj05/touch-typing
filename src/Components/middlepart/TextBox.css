@@ -5,7 +5,7 @@
 .Text-box{
     width:600px;
     height:110px;
-     border: 2px solid red; 
+     border: 2px solid #000000;
     box-sizing: border-box;
    background-image: linear-gradient(to right, #0f0701, #4f4f4e);;
     /* box-shadow: 1px 1px 5px rgb(238, 228, 228); */

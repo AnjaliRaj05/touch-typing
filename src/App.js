@@ -1,4 +1,5 @@
 
+
 import './App.css';
 
 import Nav from './Components/navbar/Nav'
@@ -25,7 +26,9 @@ function App() {
       />
 
      </div>
+     
      <div className='box-box'>
+    
        <TextBox/>
        <TypingBox/>
         <Result/>
