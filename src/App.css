@@ -43,10 +43,10 @@
   font-size:40px;
 }
 .box-box{
-  border:5px solid blue;
+  border:5px solid#000000;
   border-radius: 5px;
   height:700px;
   width:900px;
   margin-left:400px;
-  box-shadow: 0 0 10px grey;
+  box-shadow: 0 0 100px #000000;
 }
