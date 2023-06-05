@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 footer {
     text-align: center;
     font-size: 18px;
@@ -5,6 +9,7 @@ footer {
     padding: 0.4em;
     /* background: #fc5050; */
     background: #272727;
+    height: 100px;
     
 }
 footer a{
@@ -12,4 +17,10 @@ footer a{
 }
 footer a:hover{
     color: bisque;
+}
+i{
+    color:red;
+}
+.text{
+    color:white;
 }

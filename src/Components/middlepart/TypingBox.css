@@ -1,0 +1,56 @@
+.hint-container{
+    display: flex; 
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  
+} 
+.ekey{
+    display: flex;
+    color: rgb(64, 244, 19);
+
+}
+.timer{
+    display: flex;
+    margin: 10px;
+    color: rgb(64, 244, 19);
+}
+.time-btn{
+    border-radius: 50%;
+}
+.bkey{
+    color: rgb(64, 244, 19);
+    width:90px;
+    border-radius: 4px;
+    /* background: #74F0ED; */
+    background: #000000;
+    /* box-shadow: 1px 1px 5px grey; */
+    box-shadow: 0px 0px 10px rgba(243, 41, 41, 0.2);
+}
+.bkey:hover
+{
+    background:rgb(243, 243, 248);
+    color:black;
+}
+input{
+    text-align: center;
+    height:100px;
+    width:620px;
+    border-radius: 4px;
+
+    /* box-shadow: 1px 1px 5px grey;    */
+    background-image: linear-gradient(to right, #0f0701, #4f4f4e);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 10px 10px -10px rgba(0, 0, 0, 0.1),
+      0 -10px 10px -10px rgba(0, 0, 0, 0.1), 10px 0 10px -10px rgba(0, 0, 0, 0.1),
+      -10px 0 10px -10px rgba(0, 0, 0, 0.1);
+    
+}
+.typing-container{
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+/* color: rgb(79, 85, 246); */
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

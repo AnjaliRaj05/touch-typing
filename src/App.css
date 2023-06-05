@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.animated-text{
+  color:red;
+  text-align: center;
+  font-size:40px;
+}
+.box-box{
+  border:5px solid blue;
+  border-radius: 5px;
+  height:700px;
+  width:900px;
+  margin-left:400px;
+  box-shadow: 0 0 10px grey;
+}

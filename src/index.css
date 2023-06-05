@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/04/Beautiful-Plain-Website-Background.jpg');
+  background-size:cover;
+  background-repeat: no-repeat; */
+  background: linear-gradient(to right, #000000, #54534f);
+  
+  
 }
 
 code {

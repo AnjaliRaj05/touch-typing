@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './body.css';
+import './Box.css';
 
 export default function () {  
 const [inputText, setInputText] = useState('');
@@ -32,3 +32,4 @@ const [inputText, setInputText] = useState('');
   </>
   )
 }
+
