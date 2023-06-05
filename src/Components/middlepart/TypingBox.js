@@ -168,7 +168,7 @@ const [inputtypes, setInputtypes] = useState("");
     </div>
     </div>
     <div className="typing-container">
-    <input type="text" placeholder='start typing...' inputProbs={{style:{fontSize:30}}}
+    <input type="text" placeholder='Start typing...' inputProbs={{style:{fontSize:30}}}
     value={inputtypes}
     onChange={handleInput}>
     </input>
