@@ -45,7 +45,8 @@
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .box-box{
-  border:5px solid#000000;
+  /* border:5px solid#000000; */
+  border:5px solid yellow;
   border-radius: 5px;
   height:700px;
   width:900px;
