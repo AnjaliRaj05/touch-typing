@@ -26,7 +26,7 @@ function App() {
       />
 
      </div>
-     
+      <center>
      <div className='box-box'>
     
        <TextBox/>
@@ -35,7 +35,7 @@ function App() {
         </div>
         <Footer/>
         
-        
+        </center>
 
     </div>
   );

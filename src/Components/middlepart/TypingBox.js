@@ -1,11 +1,16 @@
 import React, { useEffect,useState}from 'react';
+//import { useRef } from 'react';
 import './TypingBox.css';
 
 import Image from '../../timericon.gif';
 
 import {useDispatch, useSelector } from 'react-redux';
 const plainText = [
-    "aada aa aa aa",
+    "aaaa aa aa aa",
+    "as df gh jk lk",
+    "ss dd ff gg hhh jj",
+    "a ; s ;g; g",
+    "aj ali jkl ;",
     "sds sklj;s ss ss",
     "dd dd dd dd",
     "ll ll ll ll",
@@ -20,8 +25,8 @@ const plainText = [
     "sdja hl;g",
     "djsa lg;h",
     "hh hsdah hh hh",
-    "jj jj jj jj",
-    "kkkk gghkk kk",
+    "jjj aj kj",
+    "kkhk aghkk lk",
     "gh gh gh gh",
     "jk jk jk jk",
     "l; l; l; l;",
@@ -31,12 +36,12 @@ const plainText = [
     "sd jg la ;k",
     "djsa fghl",
     "sadj hgfl",
-    "jdassdl;gh",
-    "adsjjhj ;flg",
+    "jdahd ssdl;gh",
+    "adsj jjjhj ;flg",
     "sjaddssglh;",
     "js;lhg",
-    "das das das das",
-    "jala alala lalala",
+    "das das das ll aa jj  das",
+    "jala alala lallaala",
     
   ];
 export default function TypingBox() {
@@ -151,7 +156,9 @@ const [inputtypes, setInputtypes] = useState("");
   const secondss = seconds % 60;
   return (
     <>
+   
     <div className="hint-container">
+
         <div className="ekey">
         <h1>Enter Key-</h1>
         <button className='bkey'>{presenttchar === " " ? "space" : presenttchar}</button>
@@ -172,7 +179,9 @@ const [inputtypes, setInputtypes] = useState("");
     value={inputtypes}
     onChange={handleInput}>
     </input>
+    
     </div>
+   
     </>
    
   )

@@ -47,10 +47,12 @@
 .box-box{
   /* border:5px solid#000000; */
   border:5px solid yellow;
+   
   border-radius: 5px;
   height:700px;
   width:900px;
-  margin-left:400px;
+  /* margin-left:400px; */
+
   box-shadow: 0 0 100px #000000;
 
 }
